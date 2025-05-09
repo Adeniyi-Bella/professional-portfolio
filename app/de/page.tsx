@@ -325,16 +325,16 @@ export default function Home() {
                     <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
                         <div className="flex flex-col justify-center space-y-4">
                             <div className="space-y-2">
-                                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Get in Touch</h2>
+                                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Kontakt aufnehmen</h2>
                                 <p className="max-w-[600px] text-gray-500 md:text-xl dark:text-gray-400">
-                                    Interested in working together? Feel free to reach out for collaborations or just a friendly hello.
+                                    Sind Sie an einer Zusammenarbeit interessiert? Kontaktieren Sie mich für eine Zusammenarbeit oder einfach nur für ein freundliches „Hallo“.
                                 </p>
                             </div>
                             <div className="space-y-4 max-w-md">
                                 <div className="grid grid-cols-1 gap-2">
                                     <input
                                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                        placeholder="Full Name"
+                                        placeholder="Name"
                                         type="text"
                                     />
                                     <input
@@ -344,12 +344,12 @@ export default function Home() {
                                     />
                                     <input
                                         className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                        placeholder="Subject"
+                                        placeholder="Betreff"
                                         type="text"
                                     />
                                     <textarea
                                         className="flex min-h-[120px] w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-                                        placeholder="Your Message"
+                                        placeholder="Ihre Nachricht"
                                     ></textarea>
                                 </div>
                                 <Button size="lg" className="w-full">
@@ -391,7 +391,7 @@ export default function Home() {
                             </div>
                             <div className="rounded-lg border bg-card text-card-foreground shadow-sm">
                                 <div className="p-6">
-                                    <h3 className="font-medium mb-2">Current Status</h3>
+                                    <h3 className="font-medium mb-2">Aktuelle Status</h3>
                                     <div className="space-y-2">
                                         {/* <div className="flex items-center">
                       <div className="mr-2 h-3 w-3 rounded-full bg-green-500"></div>
@@ -399,11 +399,11 @@ export default function Home() {
                     </div> */}
                                         <div className="flex items-center">
                                             <div className="mr-2 h-3 w-3 rounded-full bg-yellow-500"></div>
-                                            <span>Open to part-time opportunities from February 2026</span>
+                                            <span>Offen für Teilzeitstellen ab Februar 2026</span>
                                         </div>
                                         <div className="flex items-center">
                                             <div className="mr-2 h-3 w-3 rounded-full bg-blue-500"></div>
-                                            <span>Interested in speaking engagements</span>
+                                            <span>Intereiert an Sprechengagements</span>
                                         </div>
                                     </div>
                                 </div>
